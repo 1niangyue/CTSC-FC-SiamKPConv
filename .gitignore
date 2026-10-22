@@ -1,0 +1,17 @@
+# Runtime data, caches, and outputs
+/data/
+/outputs/
+/cache/
+/checkpoints/
+wandb/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.log
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.env

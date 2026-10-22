@@ -1,0 +1,32 @@
+# Legacy direct-runtime versions selected from the original project export.
+# This is a reference, not a newly verified environment lock.
+# Install PyTorch and its CUDA/compiled extensions for your platform first.
+gdown==3.13.1
+h5py==3.4.0; python_version >= "3.7"
+hydra-core==1.0.7
+imageio==2.9.0; python_version >= "3.6"
+laspy==2.0.3
+matplotlib==3.4.3; python_version >= "3.7"
+numba==0.50.1; python_version >= "3.6"
+numpy==1.19.5; python_version >= "3.6"
+omegaconf==2.0.6; python_version >= "3.6"
+open3d==0.12.0
+pandas==1.1.5; python_full_version >= "3.6.1" and python_version >= "3.6"
+plyfile==0.7.4
+pytorch-metric-learning==0.9.99; python_version >= "3.0"
+scikit-image==0.16.2; python_version >= "3.6"
+scikit-learn==1.0; python_version >= "3.7"
+scipy==1.6.1; python_version >= "3.7"
+six==1.16.0; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.7"
+tensorboard==2.6.0; python_version >= "3.6"
+torch-cluster==1.5.9; python_version >= "3.6"
+torch-geometric==1.7.2; python_version >= "3.6"
+torch-points-kernels==0.7.0
+torch-scatter==2.0.8; python_version >= "3.6"
+torch-sparse==0.6.12; python_version >= "3.6"
+torch==1.8.1; python_full_version >= "3.6.2"
+torchnet==0.0.4
+torchvision==0.9.1; python_version >= "3.0"
+tqdm==4.62.3; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.4.0")
+wandb==0.8.36; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.4.0")
+seaborn  # Imported by a retained shared evaluation helper; absent from the original export.
